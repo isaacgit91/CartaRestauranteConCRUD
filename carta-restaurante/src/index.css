@@ -1,0 +1,26 @@
+/* index.css */
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Contenedor principal full screen con fondo */
+body, #root {
+  height: 100%;
+}
+
+.app {
+  min-height: 100vh;           /* Ocupa toda la altura de la pantalla */
+  width: 100%;                 /* Ocupa todo el ancho */
+  background-image: url('./assets/beans.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;      /* Cubre todo el contenedor */
+  background-position: center; /* Centra la imagen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}

@@ -1,0 +1,11 @@
+.producto-container {
+  display: flex;
+  justify-content: space-between; /* nombre a la izquierda, precio a la derecha */
+  width: 100%;
+  padding: 5px 0;
+  box-sizing: border-box;
+  margin-bottom: 2px;             /* espacio entre productos */
+}
+
+
+

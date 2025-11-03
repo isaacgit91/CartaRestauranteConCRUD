@@ -1,0 +1,33 @@
+/* Carta.css */
+
+.carta-container {
+  background-color: #deb887;  /* color beige */
+
+  padding: 20px;
+  max-width: 500px;
+  width: 90%;
+  min-height: 100vh;           /* <-- ocupa toda la altura de la pantalla */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* empuja header y footer a los extremos */
+}
+.carta {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.categoria-titulo {
+  font-size: 2rem;    /* letra más grande */
+  font-weight: bold;   /* en negrita */
+  text-align: center;  /* centrado horizontal */
+  margin: 10px 0 5px 0;
+}
+
+
+.categoria-img {
+  margin-bottom: 10px; /* espacio debajo de la imagen */
+}

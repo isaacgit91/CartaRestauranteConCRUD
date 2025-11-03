@@ -1,0 +1,22 @@
+.header-container {
+  text-align: center; /* centra horizontalmente todo el contenido */
+  margin-bottom: 20px; /* espacio debajo del header */
+}
+
+.header-title {
+  font-size: 48px;  /* tamaño del título */
+  font-weight: bold;   /* negrita */
+  margin: 0;           /* eliminar margen por defecto */
+}
+
+.header-subtitle {
+  font-style: italic;  /* cursiva */
+  margin: 0;           /* eliminar margen por defecto */
+  font-size: 20px;
+}
+.header-separator {
+  display: block;
+  height: 3px;
+  background-color: #a52a2a;
+  margin: 16px auto 0 auto; /* margen superior mayor para bajarlo */
+}
